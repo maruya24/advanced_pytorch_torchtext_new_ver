@@ -1,6 +1,7 @@
 # torchtextの0.14.0に対応
 # torchdataをパッケージとしてインストールする必要がある
 # datapipes方式で記述
+# trainデータからボキャブラリーを構成せず学習済みベクトルをそのまま用いるため、単語数は99万個のままである
 # データの読み込みについての参考URL: https://qiita.com/Nezura/items/268826b61f46f67705e4
 # 学習済みの重みについての参考URL: https://extensive-nlp.github.io/TSAI-DeepNLP-END2.0/10_Seq2Seq_Attention/index.html
 
