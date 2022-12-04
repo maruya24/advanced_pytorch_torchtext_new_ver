@@ -113,18 +113,4 @@ def get_IMDb_DataLoaders_and_TEXT(max_length=256, batch_size=24):
     val_dl= DataLoader(val_ds, batch_size=batch_size, shuffle=False, collate_fn=collate_batch)
     test_dl = DataLoader(test_ds, batch_size=batch_size, shuffle=False, collate_fn=collate_batch)
 
-    # # 動作確認 検証データのデータセットで確認
-    # batch = next(iter(val_dl))
-    # print(batch[0].shape)
-    # print(batch[0])
-    # print(batch[1].shape)
-    # print(batch[1])
-
     return train_dl, val_dl, test_dl, pretrained_embeddings
-
-
-# _, _, _, pretrained_embeddings = get_IMDb_DataLoaders_and_TEXT()
-
-# from transformer import Embedder
-
-# net1 = Embedder(pretrained_embeddings)
