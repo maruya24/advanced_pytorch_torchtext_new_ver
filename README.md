@@ -22,7 +22,7 @@ pip install torchdata
 
 # Note
 
-読み込んだデータを利用するにはdataloader.py以外のコードを適宜修正する必要があります。
+読み込んだデータを利用するにはdataloader.py以外のコードを適宜修正する必要がある。
 
 # License
 
