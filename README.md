@@ -1,6 +1,6 @@
 # advanced_pytorch_torchtext_new_ver
 
-torchtextの最新バージョン(0.14.0)で「[PyTorchによる発展ディープラーニング](https://amzn.asia/d/98eAwg7)」のテキストデータを読み込むために第7章のdataloader.pyの関数get_IMDb_DataLoaders_and_TEXTを修正した。
+torchtextの最新バージョンで「[PyTorchによる発展ディープラーニング](https://amzn.asia/d/98eAwg7)」のテキストデータを読み込むために第7章のdataloader.pyの関数get_IMDb_DataLoaders_and_TEXTを修正した。
 
 # Features
 
