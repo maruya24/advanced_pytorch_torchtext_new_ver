@@ -4,7 +4,7 @@ torchtextの最新バージョンで「[PyTorchによる発展ディープラー
 
 # Features
 
-torchtextの最新バージョンではtorchtext.dataのFeild, TabularDataset, Iteratorなどが廃止されているが、修正したコードでは
+torchtextの最新バージョンではtorchtext.dataのFeild, TabularDataset, Iteratorなどが廃止されているが、この修正したコードでは
 それらを用いずにテキストデータを読み込むことができる。torchtextの0.14.0に対応している。
 
 # Requirement
